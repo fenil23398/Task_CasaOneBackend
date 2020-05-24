@@ -22,11 +22,11 @@ const deliverySchema=db.Schema({
         type : String
     },
     date : {
-        type :date,
+        type : Date,
     },
     pinCode : {
         type : Number
     }
 })
 
-module.exports = db.model('deliverydData',deliverySchema);
+module.exports = db.model('deliveryData',deliverySchema);

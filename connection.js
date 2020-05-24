@@ -9,4 +9,5 @@ mongoose.connect(url,{useNewUrlParser:true},function(err){
         console.log('Connected!');
     }
 });
+
 module.exports=mongoose;

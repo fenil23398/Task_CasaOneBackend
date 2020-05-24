@@ -22,7 +22,7 @@ const shippingSchema=db.Schema({
         type : String
     },
     date : {
-        type :date,
+        type : Date,
     },
     pinCode : {
         type : Number
